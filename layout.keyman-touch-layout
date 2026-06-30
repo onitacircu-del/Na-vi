@@ -1,0 +1,129 @@
+{
+  "id": "custom_layout",
+  "title": "Custom Language Keyboard",
+  "targets": ["phone", "tablet"],
+  "modes": {
+    "default": {
+      "layer": [
+        {
+          "id": "default",
+          "row": [
+            {
+              "id": 1,
+              "key": [
+                {"id": "K_KX_1", "text": "KX"},
+                {"id": "K_W", "text": "W"},
+                {"id": "K_E", "text": "E"},
+                {"id": "K_R", "text": "R"},
+                {"id": "K_T", "text": "T"},
+                {"id": "K_Y", "text": "Y"},
+                {"id": "K_U", "text": "U"},
+                {"id": "K_I", "text": "I"},
+                {"id": "K_IGRAVE", "text": "Ì"},
+                {"id": "K_P", "text": "P"},
+                {"id": "K_PX", "text": "PX"}
+              ]
+            },
+            {
+              "id": 2,
+              "key": [
+                {"id": "K_A", "text": "A"},
+                {"id": "K_S", "text": "S"},
+                {"id": "K_TX", "text": "TX"},
+                {"id": "K_RR", "text": "RR"},
+                {"id": "K_F", "text": "F"},
+                {"id": "K_NG", "text": "NG"},
+                {"id": "K_TS", "text": "TS"},
+                {"id": "K_K", "text": "K"},
+                {"id": "K_KX_2", "text": "KX"},
+                {"id": "K_L", "text": "L"}
+              ]
+            },
+            {
+              "id": 3,
+              "key": [
+                {"id": "K_SHIFT", "text": "⇧", "sp": 1, "width": 1.5, "next": "shift"},
+                {"id": "K_AUMLAUT", "text": "Ä"},
+                {"id": "K_Z", "text": "Z"},
+                {"id": "K_V", "text": "V"},
+                {"id": "K_N", "text": "N"},
+                {"id": "K_M", "text": "M"},
+                {"id": "K_LL", "text": "LL"},
+                {"id": "K_KX_3", "text": "KX"},
+                {"id": "K_QUOTE", "text": "‘"},
+                {"id": "K_BKSP", "text": "⌫", "sp": 1, "width": 1.5}
+              ]
+            },
+            {
+              "id": 4,
+              "key": [
+                {"id": "K_NUM", "text": "123", "sp": 1, "width": 1.5},
+                {"id": "K_SPACE", "text": " ", "width": 7.0},
+                {"id": "K_ENTER", "text": "⏎", "sp": 2, "width": 1.5}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shift",
+          "row": [
+            {
+              "id": 1,
+              "key": [
+                {"id": "K_kx_1", "text": "kx"},
+                {"id": "K_w_l", "text": "w"},
+                {"id": "K_e_l", "text": "e"},
+                {"id": "K_r_l", "text": "r"},
+                {"id": "K_t_l", "text": "t"},
+                {"id": "K_y_l", "text": "y"},
+                {"id": "K_u_l", "text": "u"},
+                {"id": "K_i_l", "text": "i"},
+                {"id": "K_igrave_l", "text": "ì"},
+                {"id": "K_p_l", "text": "p"},
+                {"id": "K_px_l", "text": "px"}
+              ]
+            },
+            {
+              "id": 2,
+              "key": [
+                {"id": "K_a_l", "text": "a"},
+                {"id": "K_s_l", "text": "s"},
+                {"id": "K_tx_l", "text": "tx"},
+                {"id": "K_rr_l", "text": "rr"},
+                {"id": "K_f_l", "text": "f"},
+                {"id": "K_ng_l", "text": "ng"},
+                {"id": "K_ts_l", "text": "ts"},
+                {"id": "K_k_l", "text": "k"},
+                {"id": "K_kx_2_l", "text": "kx"},
+                {"id": "K_l_l", "text": "l"}
+              ]
+            },
+            {
+              "id": 3,
+              "key": [
+                {"id": "K_SHIFT_L", "text": "⇧", "sp": 1, "width": 1.5, "next": "default"},
+                {"id": "K_aumlaut_l", "text": "ä"},
+                {"id": "K_z_l", "text": "z"},
+                {"id": "K_v_l", "text": "v"},
+                {"id": "K_n_l", "text": "n"},
+                {"id": "K_m_l", "text": "m"},
+                {"id": "K_ll_l", "text": "ll"},
+                {"id": "K_kx_3_l", "text": "kx"},
+                {"id": "K_quote_l", "text": "‘"},
+                {"id": "K_BKSP_L", "text": "⌫", "sp": 1, "width": 1.5}
+              ]
+            },
+            {
+              "id": 4,
+              "key": [
+                {"id": "K_NUM_L", "text": "123", "sp": 1, "width": 1.5},
+                {"id": "K_SPACE_L", "text": " ", "width": 7.0},
+                {"id": "K_ENTER_L", "text": "⏎", "sp": 2, "width": 1.5}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
